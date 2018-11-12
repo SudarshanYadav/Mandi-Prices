@@ -11,7 +11,7 @@ Following libraries have been used in this Project
 6. Datetime
 
 
-## Objective
+## Process
 
 ### 1. Pre-Processing
 
