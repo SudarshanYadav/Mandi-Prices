@@ -41,6 +41,15 @@ We were limited by the amount of data for each APMC-MANDI and could not come out
 We try both additive and multiplicative seasonality, and assume the one which has less auto corelation after deseaonlising.
 
 
-### De-Seasonalise prices for each Commodity and APMC
+### 7. De-Seasonalise prices for each Commodity and APMC
 We could not very strongly determine the seasonality for each APMC-MANDI, so we assumed that the seasonality is additive and used Holt Winter's method to De-Seasonalise the prices.
+
+### 8. Detect Crop Type For Each Commodity
+We detect the crop type for each commodity using internet from sites like agritech, apnikheti.in.
+
+### 9. Observations
+
+1. Rabi Crops show more variation in prices as compared to Kharif Crops
+2. Declaring a MSP results in less variation of prices
+3. Larger Mandis show greater variation in Prices
 
